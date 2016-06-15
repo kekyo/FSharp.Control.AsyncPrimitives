@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.AsyncPrimitives.FS2NET2", "FSharp.Control.AsyncPrimitives.FS2NET2\FSharp.Control.AsyncPrimitives.FS2NET2.fsproj", "{A6DEB7D7-AF98-4253-B8E9-12796676DA52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96D933D7-6749-4728-AF91-9D7AD36FDCB5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build-nupkg.bat = build-nupkg.bat
+		CommonAssemblyInfo.fs = CommonAssemblyInfo.fs
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0BD53CDB-7B5F-4457-B51A-CFB5A7F69990}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\nuget.exe = .nuget\nuget.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{C8C57DF0-E5A3-4342-8DE9-27392DDF0B66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6DEB7D7-AF98-4253-B8E9-12796676DA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DEB7D7-AF98-4253-B8E9-12796676DA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DEB7D7-AF98-4253-B8E9-12796676DA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DEB7D7-AF98-4253-B8E9-12796676DA52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
