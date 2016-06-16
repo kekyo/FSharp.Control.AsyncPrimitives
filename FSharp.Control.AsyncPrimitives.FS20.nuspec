@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>FSharp.Control.AsyncPrimitives.FS20</id>
+		<version>$Version$</version>
+		<title>AsyncPrimitives (F# 2.0)</title>
+		<authors>Kouji Matsui</authors>
+		<owners>Kouji Matsui</owners>
+		<description>F# Async synchronization primitives library.</description>
+		<summary>F# Async synchronization primitives library.</summary>
+		<copyright>Copyright (c) 2016 Kouji Matsui</copyright>
+		<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+		<projectUrl>https://github.com/kekyo/FSharp.Control.AsyncPrimitives</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/kekyo/FSharp.Control.AsyncPrimitives/master/Images/FSharp.Control.AsyncPrimitives.100.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<releaseNotes>F# Async synchronization primitives library. For example, AsyncLock type is safe async-based lock operation in F# async workflow.</releaseNotes>
+		<tags>F# Async synchronization primitives lock mutex semaphore readerwriter lazy</tags>
+	</metadata>
+	<files>
+		<file src="FSharp.Control.AsyncPrimitives.FS2NET2/bin/$Configuration$/FSharp.Control.AsyncPrimitives.dll" target="lib/net20" />
+		<file src="FSharp.Control.AsyncPrimitives.FS2NET2/bin/$Configuration$/FSharp.Control.AsyncPrimitives.pdb" target="lib/net20" />
+		<file src="FSharp.Control.AsyncPrimitives.FS2NET2/bin/$Configuration$/FSharp.Control.AsyncPrimitives.xml" target="lib/net20" />
+		<file src="FSharp.Control.AsyncPrimitives.FS2NET4/bin/$Configuration$/FSharp.Control.AsyncPrimitives.dll" target="lib/net40-Client" />
+		<file src="FSharp.Control.AsyncPrimitives.FS2NET4/bin/$Configuration$/FSharp.Control.AsyncPrimitives.pdb" target="lib/net40-Client" />
+		<file src="FSharp.Control.AsyncPrimitives.FS2NET4/bin/$Configuration$/FSharp.Control.AsyncPrimitives.xml" target="lib/net40-Client" />
+	</files>
+</package>
