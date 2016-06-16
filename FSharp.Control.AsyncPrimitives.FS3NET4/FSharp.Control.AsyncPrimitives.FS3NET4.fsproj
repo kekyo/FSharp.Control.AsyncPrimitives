@@ -5,16 +5,15 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a6deb7d7-af98-4253-b8e9-12796676da52</ProjectGuid>
+    <ProjectGuid>9C8D1662-D59C-43C6-B8A3-D954923DB42A</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>FSharp.Control.AsyncPrimitives</RootNamespace>
     <AssemblyName>FSharp.Control.AsyncPrimitives</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
-    <TargetFSharpCoreVersion>2.0.0.0</TargetFSharpCoreVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFSharpCoreVersion>4.3.0.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>FSharp.Control.AsyncPrimitives.FS2NET2</Name>
+    <Name>FSharp.Control.AsyncPrimitives.FS3NET4</Name>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -72,9 +71,15 @@
       <Link>CommonAssemblyInfo.fs</Link>
     </Compile>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Infrastructures.fs" />
-    <Compile Include="Primitives.fs" />
-    <Compile Include="Utilities.fs" />
+    <Compile Include="..\FSharp.Control.AsyncPrimitives.FS2NET2\Infrastructures.fs">
+      <Link>Infrastructures.fs</Link>
+    </Compile>
+    <Compile Include="..\FSharp.Control.AsyncPrimitives.FS2NET2\Primitives.fs">
+      <Link>Primitives.fs</Link>
+    </Compile>
+    <Compile Include="..\FSharp.Control.AsyncPrimitives.FS2NET2\Utilities.fs">
+      <Link>Utilities.fs</Link>
+    </Compile>
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

@@ -23,6 +23,8 @@ open System.Reflection
 open System.Runtime.CompilerServices
 open System.Runtime.InteropServices
 
+[<assembly: AssemblyTitle("FSharp.Control.AsyncPrimitives (F# 2.0/.NET 2.0)")>]
+
 [<assembly: ComVisible(false)>]
 [<assembly: Guid("a6deb7d7-af98-4253-b8e9-12796676da52")>]
 

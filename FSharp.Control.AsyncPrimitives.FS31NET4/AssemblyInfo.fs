@@ -17,17 +17,15 @@
 //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-namespace global
-    [<assembly: System.Reflection.AssemblyDescription("F# Async synchronization primitives library.")>]
+namespace FSharp.Control.AsyncPrimitives
 
-    [<assembly: System.Reflection.AssemblyCompany("Kouji Matsui")>]
-    [<assembly: System.Reflection.AssemblyProduct("FSharp.Control.AsyncPrimitives")>]
-    [<assembly: System.Reflection.AssemblyCopyright("Copyright (C) 2016 Kouji Matsui")>]
-    [<assembly: System.Reflection.AssemblyTrademark("Kouji Matsui")>]
-#if DEBUG
-    [<assembly: System.Reflection.AssemblyConfiguration("DEBUG")>]
-#else
-    [<assembly: System.Reflection.AssemblyConfiguration("RELEASE")>]
-#endif
-    [<assembly: AutoOpen("Microsoft.FSharp.Control")>]
-    do()
+open System.Reflection
+open System.Runtime.CompilerServices
+open System.Runtime.InteropServices
+
+[<assembly: AssemblyTitle("FSharp.Control.AsyncPrimitives (F# 3.1/.NET 4.0)")>]
+
+[<assembly: ComVisible(false)>]
+[<assembly: Guid("9C8D1662-D59C-43C6-B8A3-D954923DB42A")>]
+
+do ()
