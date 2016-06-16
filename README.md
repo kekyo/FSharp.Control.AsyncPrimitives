@@ -22,9 +22,12 @@
 
 ## Benefits
 * TODO:
+* F# 2.0, 3.0, 3.1 and 4.0 with .NET 4.0/4.5 include PCL Profile 7/47/78/259.
 
 ## Environments
-* TODO:
+* .NET Framework 4.0/4.5
+* .NET Framework Portable class library (Profile 7/47/78/259)
+* F# 2.0, 3.0, 3.1, 4.0 (NuGet package separated, choose)
 
 ## How to use
 * Search NuGet package and install "FSharp.Control.AsyncPrimitives.FS??". You must select F# version.
